@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #0a0a0a;
+  color: #fff;
+  font-family: 'Consolas', 'Courier New', monospace;
+}
+
+#matrix-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+  display: block;
+}
+
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 2;
+  pointer-events: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#overlay h1 {
+  margin-top: 40px;
+  font-size: 2.5em;
+  color: #aaffaa;
+  text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00;
+}
+
+#flowers {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+#mensaje {
+  margin-bottom: 40px;
+  font-size: 1.5em;
+  color: #ffb6c1;
+  text-shadow: 0 0 10px #ff69b4;
+}
