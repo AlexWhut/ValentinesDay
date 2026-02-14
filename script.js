@@ -190,7 +190,7 @@ function getCombinedMask() {
     );
     rowNombre = rowLine2 + 7 + 3;            // PELIROSI debajo con 3 de gap
   } else {
-    maskTitulo = getTextMask('NAME', topMargin);
+    maskTitulo = getTextMask('FELIZ VALENTINE', topMargin);
     rowNombre  = topMargin + 7 + 3;
   }
 
@@ -199,7 +199,7 @@ function getCombinedMask() {
 
   return combineMasks(
     maskTitulo,
-    getTextMask('PELIROSI', rowNombre),
+    getTextMask('NAME', rowNombre),
     getRoseMask(rowRosa)
   );
 }
